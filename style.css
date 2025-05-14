@@ -79,3 +79,40 @@ nav {
     width: 250px;
     border-radius: 20px;
 }
+.projects {
+    padding: 60px 40px;
+    background-color: #0c0012;
+}
+
+.projects h2 {
+    font-size: 28px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.project-showcase {
+    position: relative;
+    text-align: center;
+}
+
+.project-showcase img {
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.project-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-btn {
+    padding: 10px 20px;
+    background-color: #ff85c1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
