@@ -76,11 +76,8 @@ nav {
 }
 
 .fotoprofile img {
-    max-height: 80%;
-      max-width: 80%;
-      object-fit: cover;
-      border-radius: 8px;
-   
+    width: 250px;
+    border-radius: 20px;
 }
 .projects {
     padding: 60px 40px;
