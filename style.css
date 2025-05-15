@@ -30,28 +30,28 @@ nav {
     font-weight: 500;
 }
 
-.hero {
+.utama {
     display: flex;
     justify-content: space-between;
     padding: 50px 40px;
     align-items: center;
 }
 
-.hero-text {
+.utama-text {
     max-width: 600px;
 }
 
-.hero-text h1 {
+.utama-text h1 {
     font-size: 32px;
     color: #ffb6ff;
 }
 
-.hero-text h2 {
+.utama-text h2 {
     font-size: 36px;
     margin: 10px 0;
 }
 
-.hero-text p {
+.utama-text p {
     font-size: 16px;
     margin-bottom: 20px;
 }
