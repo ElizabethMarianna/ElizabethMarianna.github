@@ -79,6 +79,61 @@ nav {
     width: 250px;
     border-radius: 20px;
 }
+.tools-skills {
+  max-width: 700px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #111;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ff00ff44;
+}
+
+.tools-skills h2 {
+  color: #ff33cc;
+  font-size: 24px;
+}
+
+.tools-skills p {
+  margin-bottom: 1.5rem;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.tools-list {
+  list-style: none;
+  padding: 0;
+}
+
+.tools-list li {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.tools-list img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.see-projects {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  background-color: #222;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  border: 1px solid #555;
+  transition: 0.3s;
+}
+
+.see-projects:hover {
+  background-color: #333;
+}
+
+
 .projects {
     padding: 60px 40px;
     background-color: #0c0012;
