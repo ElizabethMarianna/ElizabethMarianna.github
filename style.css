@@ -75,7 +75,11 @@ nav {
     margin: 10px 10px 0 0;
 }
 
-.hero-image img {
+.fotoprofile img {
+    max-height: 80%;
+      max-width: 80%;
+      object-fit: cover;
+      border-radius: 8px;
     width: 250px;
     border-radius: 20px;
 }
