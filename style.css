@@ -69,12 +69,18 @@ nav {
     color: #ccc;
     margin-left: 10px;
 }
-
-.icons img {
-    width: 30px;
-    margin: 10px 10px 0 0;
+.icons  {
+    display: flex;
+    gap: 1.5rem;
 }
-
+.icons img {
+    width: 32px;
+    height: 32px;
+    transition:transform 0.2s ease;
+}
+.icons img:hover  {
+   transform: scale(1.1);
+}
 .fotoprofile img {
     width: 250px;
     border-radius: 20px;
@@ -169,7 +175,7 @@ nav {
 .project-links {
     margin-top: 20px;
     display: flex;
-    justify-content: left;
+    justify-content: right;
     gap: 20px;
 }
 
