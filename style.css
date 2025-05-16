@@ -155,11 +155,21 @@ nav {
     border-radius: 12px;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
 }
+.project-showcase2 {
+    position: relative;
+    text-align: center;
+}
+
+.project-showcase2 img {
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
 
 .project-links {
     margin-top: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     gap: 20px;
 }
 
@@ -179,14 +189,14 @@ body {
 }
 
 .testimonials {
-  max-width: 700px;
-  margin: auto;
-  text-align: left;
+    padding: 60px 40px;
+    background-color: #0c0012;
 }
 
 .testimonials h2 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
+    font-size: 28px;
+    color: white;
+    margin-bottom: 30px;
 }
 
 .testimonial-card {
