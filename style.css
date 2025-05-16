@@ -11,7 +11,11 @@ nav {
     padding: 20px 40px;
     align-items: center;
 }
-
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
 .logo {
     font-size: 24px;
     font-weight: bold;
