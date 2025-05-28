@@ -229,6 +229,7 @@ nav {
 .project-showcase2 {
     position: relative;
     text-align: center;
+    align-items: flex-start;
 }
 
 .project-showcase2 img {
