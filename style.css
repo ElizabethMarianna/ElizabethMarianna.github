@@ -6,11 +6,9 @@ body {
 }
 
 nav {
-display: flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-
 }
 .nav-left {
   display: flex;
@@ -32,9 +30,9 @@ display: flex;
   margin-right: 10px;
 }
 .logo-text {
-  font-size: 1.5em;
+   color: white;
   font-weight: bold;
-  color: violet;
+  font-size: 1.2rem;
 }
 
 
@@ -48,8 +46,13 @@ display: flex;
 .nav-links li a {
   text-decoration: none;
   color: white;
+  font-weight: bold;
+  transition: color 0.3s;
 }
 
+.nav-links li a:hover {
+  color: #ff66cc; 
+}
 .utama {
     display: flex;
     justify-content: space-between;
