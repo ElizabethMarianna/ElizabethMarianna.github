@@ -143,7 +143,13 @@ nav {
   align-items: center;
   font-size: 16px;
 }
-
+.tools-section {
+  position: relative;
+  padding: 40px;
+  background-color: #0f0f0f;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
 .tools-list img {
   width: 20px;
   height: 20px;
