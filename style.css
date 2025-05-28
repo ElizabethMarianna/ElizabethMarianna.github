@@ -6,41 +6,36 @@ body {
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 40px;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
 }
 .nav-left {
   display: flex;
   align-items: center;
 }
-.logo-area img {
-     width: 40px; 
-  margin-right: 10px; 
-    position: absolute;
-}
+
 .loo {
-  width: 40px; 
-  margin-right: 10px; 
+  width: 40px; /* atur ukuran sesuai kebutuhan */
+  margin-right: 10px; /* atur jarak antara gambar dan teks */
 }
 
 .logo {
-    font-size: 1.5em;
-    font-weight: bold;
-    color: #ffb6ff;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: violet; /* sesuaikan warna dengan desain kamu */
 }
 
 .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
+.nav-links li a {
+  text-decoration: none;
+  color: white;
 }
 
 .utama {
@@ -78,17 +73,17 @@ nav {
     border-radius: 5px;
 }
 .buttons {
-  margin-bottom: 20px; 
+  margin-bottom: 20px; /* tambahkan jarak antara tombol dan ikon */
   display: flex;
-  gap: 10px; 
+  gap: 10px; /* jarak antar tombol */
 }
 .cv-link {
     color: #ccc;
     margin-left: 10px;
 }
-.icons  {
-    display: flex;
-    gap: 10px;
+.icons {
+  display: flex;
+  gap: 10px; /* jarak antar ikon */
 }
 .icons img {
     width: 32px;
@@ -190,7 +185,6 @@ nav {
     border-radius: 12px;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
 }
-
 
 .project-links {
     margin-top: 20px;
