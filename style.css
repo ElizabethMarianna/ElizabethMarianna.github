@@ -88,7 +88,7 @@ nav {
 }
 .icons  {
     display: flex;
-    gap: 1.5rem;
+    gap: 10px;
 }
 .icons img {
     width: 32px;
@@ -174,7 +174,8 @@ nav {
 }
 
 .project-showcase img {
-    max-width: 100%;
+    height: 500px;
+    width: 700px;
     border-radius: 12px;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
 }
@@ -184,10 +185,12 @@ nav {
 }
 
 .project-showcase2 img {
-    max-width: 100%;
+       height: 500px;
+    width: 700px;
     border-radius: 12px;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
 }
+
 
 .project-links {
     margin-top: 20px;
