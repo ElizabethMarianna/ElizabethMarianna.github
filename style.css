@@ -10,6 +10,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+flex-direction: column;
+
 }
 .nav-left {
   display: flex;
@@ -26,11 +28,23 @@ nav {
   font-weight: bold;
   color: violet; /* sesuaikan warna dengan desain kamu */
 }
+.logo-img {
+  width: 40px;
+  margin-right: 10px;
+}
+.logo-text {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: violet;
+}
 
 .nav-links {
+    flex-direction: column;
   list-style: none;
   display: flex;
   gap: 20px;
+  margin-top: 10px;
+
 }
 
 .nav-links li a {
