@@ -151,19 +151,26 @@ nav {
 }
 
 .see-projects {
-  display: inline-block;
-  margin-top: 2rem;
-  padding: 0.5rem 1rem;
-  background-color: #222;
-  color: white;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  background-color: #f2a4d6;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: 500;
   text-decoration: none;
-  border-radius: 20px;
-  border: 1px solid #555;
-  transition: 0.3s;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .see-projects:hover {
-  background-color: #333;
+  background-color: #e08dc1;
+  transform: translateY(-2px);
 }
 
 
