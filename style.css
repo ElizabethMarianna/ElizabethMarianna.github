@@ -11,14 +11,22 @@ nav {
     padding: 20px 40px;
     align-items: center;
 }
-
+.nav-left {
+  display: flex;
+  align-items: center;
+}
 .logo-area img {
-    width: 200px;
-    height: 50px;
+     width: 40px; 
+  margin-right: 10px; 
     position: absolute;
 }
+.loo {
+  width: 40px; 
+  margin-right: 10px; 
+}
+
 .logo {
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: bold;
     color: #ffb6ff;
 }
@@ -69,7 +77,11 @@ nav {
     margin-right: 10px;
     border-radius: 5px;
 }
-
+.buttons {
+  margin-bottom: 20px; 
+  display: flex;
+  gap: 10px; 
+}
 .cv-link {
     color: #ccc;
     margin-left: 10px;
