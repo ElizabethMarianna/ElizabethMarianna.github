@@ -205,10 +205,14 @@ nav {
     color: white;
     margin-bottom: 30px;
 }
-
+.project-btn:hover {
+  background-color: #ff68b0;
+}
 .project-showcase {
-    position: relative;
-    text-align: center;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 
 .project-showcase img {
@@ -230,19 +234,19 @@ nav {
 }
 
 .project-links {
-    margin-top: 20px;
-    display: flex;
-    justify-content: right;
-    gap: 20px;
+   display: flex;
+  gap: 1rem;
+  margin-top: 10px;
 }
 
 .project-btn {
-    padding: 10px 20px;
-    background-color: #ff85c1;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
+background-color: #ff8ecb;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 body {
   background-color: #121212;
