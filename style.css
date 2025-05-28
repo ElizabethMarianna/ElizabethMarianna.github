@@ -256,8 +256,9 @@ body {
 }
 
 .testimonials {
-    padding: 60px 40px;
-    background-color: #0c0012;
+  background-color: #0a000f; /* warna latar belakang gelap */
+  padding: 3rem 2rem;
+  text-align: center;
 }
 
 .testimonials h2 {
@@ -271,7 +272,9 @@ body {
   color: #000;
   border-radius: 12px;
   padding: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin: 2rem auto;
+  max-width: 850px;
+  text-align: left;
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 html {
@@ -281,6 +284,7 @@ html {
 .profile {
   display: flex;
   align-items: center;
+  gap: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -300,9 +304,22 @@ html {
   font-size: 0.875rem;
   color: #555;
 }
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
 
+.role {
+  color: #555;
+  font-size: 0.9rem;
+}
 .quote {
   font-style: italic;
   font-size: 1rem;
   line-height: 1.5;
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  border-left: 3px solid #eaa;
 }
