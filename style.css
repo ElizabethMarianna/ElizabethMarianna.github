@@ -6,11 +6,10 @@ body {
 }
 
 nav {
-  display: flex;
+display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-flex-direction: column;
 
 }
 .nav-left {
