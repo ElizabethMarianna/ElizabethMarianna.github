@@ -209,12 +209,17 @@ nav {
   background-color: #ff68b0;
 }
 .project-showcase {
-   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
 }
-
+.project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 .project-showcase img {
     height: 500px;
     width: 700px;
@@ -234,13 +239,13 @@ nav {
 }
 
 .project-links {
-   display: flex;
+  display: flex;
   gap: 1rem;
   margin-top: 10px;
 }
 
 .project-btn {
-background-color: #ff8ecb;
+  background-color: #ff8ecb;
   color: white;
   padding: 10px 20px;
   border-radius: 8px;
