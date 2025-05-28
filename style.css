@@ -11,13 +11,8 @@ nav {
     padding: 20px 40px;
     align-items: center;
 }
-.logo-area {
-    width: 82px;
-  height: auto; 
-    position: flex;
 
-}
-.logo-area img{
+.logo-area img {
     width: 82px;
     height: 82px;
     position: absolute;
