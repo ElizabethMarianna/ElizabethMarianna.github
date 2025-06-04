@@ -161,11 +161,11 @@ nav {
   padding: 2rem;
   background-color: #111;
   border-radius: 10px;
-  box-shadow: 0 0 10px #ff00ff44;
+  box-shadow: 0 0 10px violet;
 }
 
 .tools-skills h2 {
-  color: #ff33cc;
+  color: violet;
   font-size: 24px;
 }
 
@@ -203,17 +203,17 @@ nav {
   position: absolute;
   right: 20px;
   bottom: 20px;
-  background-color: #f2a4d6;
-  color: black;
+  background-color:#ff68b0;
+  color: rgb(255, 255, 255);
   padding: 10px 20px;
   border-radius: 25px;
-  font-weight: 500;
+  font-weight: bold;
   text-decoration: none;
   font-size: 14px;
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 10px violet;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
@@ -247,25 +247,16 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  
 }
 .project-showcase img {
     height: 500px;
     width: 700px;
     border-radius: 12px;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
-}
-.project-showcase2 {
-    position: relative;
-    text-align: center;
-    align-items: flex-start;
+    margin-bottom: 15px;
 }
 
-.project-showcase2 img {
-       height: 500px;
-    width: 700px;
-    border-radius: 12px;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
-}
 
 .project-links {
   display: flex;
@@ -300,13 +291,10 @@ body {
 
 
 .testimonials h2 {
-  font-size: 28px;
-  color: #ffffff;
-  margin-bottom: 30px;
-  max-width: 850px;
-  margin: 0 auto 1.5rem;
-  font-weight: bold;
-  text-align: left;
+    font-size: 28px;
+    color: white;
+    margin-bottom: 30px;
+    margin-left: 20px;
 }
 
 .testimonial-card {
