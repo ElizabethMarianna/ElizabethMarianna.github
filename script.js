@@ -32,3 +32,10 @@ function animateStars() {
   requestAnimationFrame(animateStars);
 }
 animateStars();
+
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-bar ul');
+
+hamburger.addEventListener('click', () => {
+  navMenu.classList.toggle('active');
+});
