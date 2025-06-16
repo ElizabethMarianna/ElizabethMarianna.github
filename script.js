@@ -33,6 +33,7 @@ function animateStars() {
 }
 animateStars();
 
+// Hamburger menu toggle
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-bar ul');
 

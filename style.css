@@ -394,10 +394,24 @@ html {
 }
 
 @media (max-width: 768px) {
+  header {
+    flex-direction: row;
+    padding: 0 20px;
+  }
+
+  .logo {
+    font-size: 1.2em;
+  }
+
   .utama {
     flex-direction: column;
+    padding: 100px 20px 40px;
     text-align: center;
-    padding: 20px;
+  }
+
+  .utama-text h1,
+  .utama-text h2 {
+    font-size: 24px;
   }
 
   .fotoprofile img {
@@ -408,10 +422,16 @@ html {
   .buttons {
     flex-direction: column;
     gap: 10px;
+    align-items: center;
   }
 
   .tools-skills {
-    padding: 1rem;
+    padding: 1.5rem;
+  }
+
+  .project-showcase {
+    flex-direction: column;
+    align-items: center;
   }
 
   .project-showcase img {
@@ -419,30 +439,47 @@ html {
     height: auto;
   }
 
-  .nav-bar ul {
-    flex-direction: column;
-    background-color: #111;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 200px;
-    display: none;
-    z-index: 10000;
+  .testimonial-card {
+    margin: 1rem;
+    padding: 1rem;
   }
 
-  .nav-bar ul li a {
-    font-size: 16px;
-    padding: 10px;
-  }
-
+  /* Hamburger Menu */
   .hamburger {
     display: block;
     cursor: pointer;
-    margin-right: 20px;
+    z-index: 10001;
+  }
+
+  .hamburger .line {
+    width: 25px;
+    height: 3px;
+    background: violet;
+    margin: 5px;
+  }
+
+  .nav-bar ul {
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #101010;
+    width: 200px;
+    display: none;
+    z-index: 10000;
+    padding: 20px 0;
+  }
+
+  .nav-bar ul li {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .nav-bar ul.active {
+    display: flex;
   }
 }
 
-/* Tampilkan menu ketika aktif (tambahkan class "active" dari JS) */
-.nav-bar ul.active {
-  display: flex;
+.hamburger {
+  display: none;
 }
