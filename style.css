@@ -62,15 +62,6 @@ nav {
   border-radius:50%;
 }
 
-
-
- .nav-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-
 .nav-bar ul {
     display: flex;
     list-style: none;
@@ -143,6 +134,22 @@ nav {
 .btn:hover {
   background-color: #e38db8;
 }
+
+.music-btn {
+  background-color: #ffd1ec;
+  color: black;
+  font-size: 14px;
+}
+.music-btn img {
+   width: 28px;  /* ubah sesuai keinginan, misal 32px atau 36px */
+  height: 28px;
+  margin-right: 8px; /* beri jarak antara ikon dan teks */
+  vertical-align: middle;
+}
+.music-btn:hover {
+  background-color: #e0a4d0;
+}
+
 .cv-link {
   color: white;
   text-decoration: underline;
@@ -482,4 +489,36 @@ html {
 
 .hamburger {
   display: none;
+}
+/* Tombol Musik - Gaya Baru */
+.music-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #ff68b0;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 0 15px rgba(255, 104, 176, 0.6);
+  cursor: pointer;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+    padding: 10px;
+}
+
+.music-btn:hover {
+  background-color: #ecb4d1;
+  transform: scale(1.1);
+}
+
+.music-btn img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  display: block;
+  margin: auto;
 }
