@@ -3,6 +3,7 @@ body {
     font-family: 'Segoe UI', sans-serif;
     background: #0c0012;
     color: white;
+    cursor: url('aset/cursor-custom (1).png'), auto;
 }
 
  #starCanvas {
@@ -12,6 +13,7 @@ body {
   z-index: -1;
   width: 100%;
   height: 100%;
+   cursor: none;
 }
 
   
@@ -521,4 +523,33 @@ html {
   object-fit: contain;
   display: block;
   margin: auto;
+}
+
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background: radial-gradient(circle, #ff68b0 40%, rgba(255, 104, 176, 0.3));
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 99999;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px #ff68b0, 0 0 30px rgba(255, 104, 176, 0.5);
+  transition: transform 0.05s ease;
+}
+
+
+
+/* Hover efek tambahan */
+a:hover ~ .custom-cursor,
+button:hover ~ .custom-cursor {
+  transform: scale(1.5);
+}
+
+/* Efek saat hover ke link/button */
+a:hover ~ .custom-cursor,
+button:hover ~ .custom-cursor {
+  transform: scale(1.5);
 }

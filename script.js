@@ -28,10 +28,18 @@ canvas.addEventListener('click', e => {
   }
 });
 
-// Animasi bintang
+// Posisi mouse untuk efek cahaya
+let mouseX = -1000, mouseY = -1000;
+window.addEventListener('mousemove', e => {
+  mouseX = e.clientX;
+  mouseY = e.clientY;
+});
+
+// Animasi bintang dan cahaya mouse
 function animateStars() {
   ctx.fillStyle = 'black';
   ctx.fillRect(0, 0, canvas.width, canvas.height);
+
   stars.forEach(s => {
     s.x += s.vx;
     s.y += s.vy;
@@ -46,6 +54,15 @@ function animateStars() {
     ctx.fillStyle = 'white';
     ctx.fill();
   });
+
+  // Efek cahaya mengikuti mouse
+  const gradient = ctx.createRadialGradient(mouseX, mouseY, 0, mouseX, mouseY, 100);
+  gradient.addColorStop(0, 'rgba(247, 189, 189, 0.9)');
+  gradient.addColorStop(1, 'rgba(255, 255, 255, 0)');
+  ctx.fillStyle = gradient;
+  ctx.beginPath();
+  ctx.arc(mouseX, mouseY, 100, 0, Math.PI * 2);
+  ctx.fill();
 
   requestAnimationFrame(animateStars);
 }
@@ -87,4 +104,11 @@ document.addEventListener('DOMContentLoaded', () => {
       isPlaying = !isPlaying;
     });
   }
+});
+
+// Custom cursor glow
+const cursor = document.querySelector('.custom-cursor');
+document.addEventListener('mousemove', (e) => {
+  cursor.style.left = e.clientX + 'px';
+  cursor.style.top = e.clientY + 'px';
 });
